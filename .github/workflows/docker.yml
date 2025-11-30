@@ -10,6 +10,7 @@ on:
     - ".github/workflows/docker.yml"
     - "**"
   pull_request:
+    types: [ "opened", "reopened" ]
     branches: [ "main", "master" ]
     paths: 
     - ".github/workflows/docker.yml"
